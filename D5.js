@@ -16,6 +16,7 @@ for (let i=0; i<pets.length;i++){ console.log (pets[i])}
 
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
+    
 */
 
 pets.sort()
@@ -57,9 +58,8 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
-
-for(i=0;i<cars.length;i++)
-  {cars[i].licensePlate= "ET654MB"}
+for(let i=0;i<cars.length;i++)
+  {cars[i].licensePlate= "ET654MB","BR543MI","NP542LO"}
 console.log (cars)
 
 /* ESERCIZIO 6
@@ -84,7 +84,9 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 let i=0
-while (numericArray[i]!==32 && i<numericArray.length){console.log (numericArray[i]); i++}
+while (numericArray[i]!==32 && i<numericArray.length){console.log (numericArray[i]); i++ }
+console.log 
+
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
